@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*I prefer to use border box*/
+    box-sizing: border-box;
+    /*reset Chrome user agent styles*/
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-before: 0px;
+    -webkit-padding-after: 0px;
+    -webkit-padding-start: 0px;
+    -webkit-padding-end: 0px;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 150%;
+    letter-spacing: 1px;
+}
+
+body {
+    background: linear-gradient( rgba(70, 70, 70, 0.8), rgba(70, 70, 70, 0.8)), url(images/pencil.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+li {
+    list-style: none;
+}
