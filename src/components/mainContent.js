@@ -1,6 +1,7 @@
 import React from 'react';
 import Q1name from './q1name';
 import CollectionOfQuestions from './collectionOfQuestions'
+import Footer from './footer';
 import './mainContent.css';
 
 export default class MainContent extends React.Component{
@@ -8,6 +9,7 @@ export default class MainContent extends React.Component{
         super(props);
         this.state = {
             openTheRest : false,
+            percentage:10,
             name: '',
             industry:'',
             value:'',
@@ -50,6 +52,7 @@ export default class MainContent extends React.Component{
             <ul>
             <li className="questions" ><Q1name onName={(value)=>this.NameInputted(value)}/></li>
             <li className="questions" >{theRest}</li>
+            <Footer percentage={this.state.percentage}/>
             </ul>
         </section>
 

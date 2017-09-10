@@ -20,49 +20,49 @@ export default class Q6genderTarget extends React.Component{
         <li>
         <input type="text" value="17--" hidden/>
         <div className="information-special">
-        <p className="square-box">A</p><span>17 or younger</span>
+        <p className="square-box">A</p><p>17 or younger</p>
         </div>
         </li>
         <li>
         <input type="text" value="18-24" hidden/>
         <div className="information-special">
-        <p className="square-box">B</p><span>18 to 24</span>
+        <p className="square-box">B</p><p>18 to 24</p>
         </div>
         </li>
         <li>
         <input type="text" value="25-34" hidden/>
         <div className="information-special">
-        <p className="square-box">C</p><span>25 to 34</span>
+        <p className="square-box">C</p><p>25 to 34</p>
         </div>
         </li>
         <li>
         <input type="text" value="35-44" hidden/>
         <div className="information-special">
-        <p className="square-box">D</p><span>35 to 44</span>
+        <p className="square-box">D</p><p>35 to 44</p>
         </div>
         </li>
         <li>
         <input type="text" value="45-54" hidden/>
         <div className="information-special">
-        <p className="square-box">E</p><span>45 to 54</span>
+        <p className="square-box">E</p><p>45 to 54</p>
         </div>
         </li>
         <li>
         <input type="text" value="55-64" hidden/>
         <div className="information-special">
-        <p className="square-box">F</p><span>55 to 64</span>
+        <p className="square-box">F</p><p>55 to 64</p>
         </div>
         </li>
         <li>
         <input type="text" value="65-74" hidden/>
         <div className="information-special">
-        <p className="square-box">G</p><span>65 to 74</span>
+        <p className="square-box">G</p><p>65 to 74</p>
         </div>
         </li>
         <li>
         <input type="text" value="75++" hidden/>
         <div className="information-special">
-        <p className="square-box">H</p><span>75 and Up</span>
+        <p className="square-box">H</p><p>75 and Up</p>
         </div>
         </li>
         </ul>

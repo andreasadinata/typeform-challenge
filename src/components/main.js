@@ -1,6 +1,7 @@
 import React from 'react';
 import Introduction from './introduction';
-import MainContent from './mainContent'
+import MainContent from './mainContent';
+
 
 export default class Main extends React.Component {
     constructor(props){
@@ -17,7 +18,7 @@ export default class Main extends React.Component {
     render (){
         let section;
         if(this.state.openMainContent){
-            section = <MainContent/>
+            section = <MainContent/>;
         }
         else{
             section =<Introduction onNextSection={()=>this.toggleNextSection()}/>

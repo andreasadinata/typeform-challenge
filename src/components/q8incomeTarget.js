@@ -20,49 +20,49 @@ export default class Q8incomeTarget extends React.Component{
         <li>
         <input hidden type="text" value="10--"/>
         <div className="information-special">
-        <p className="square-box">A</p><span>Less than $10,000</span>
+        <p className="square-box">A</p><p>Less than $10,000</p>
         </div>
         </li>
         <li>
         <input hidden type="text" value="10-35"/>
         <div className="information-special">
-        <p className="square-box">B</p><span>$10,000-$35,000</span>
+        <p className="square-box">B</p><p>$10,000-$35,000</p>
         </div>
         </li>
         <li>
         <input hidden type="text" value="35-55"/>
         <div className="information-special">
-        <p className="square-box">C</p><span>$35,000-$55,000</span>
+        <p className="square-box">C</p><p>$35,000-$55,000</p>
         </div>
         </li>
         <li>
         <input hidden type="text" value="55-75"/>
         <div className="information-special">
-        <p className="square-box">D</p><span>$55,000-$75,000</span>
+        <p className="square-box">D</p><p>$55,000-$75,000</p>
         </div>
         </li>
         <li>
         <input hidden type="text" value="75-100"/>
         <div className="information-special">
-        <p className="square-box">E</p><span>$75,000-$100,000</span>
+        <p className="square-box">E</p><p>$75,000-$100,000</p>
         </div>
         </li>
         <li>
         <input hidden type="text" value="100-150"/>
         <div className="information-special">
-        <p className="square-box">F</p><span>$100,000-$150,000</span>
+        <p className="square-box">F</p><p>$100,000-$150,000</p>
         </div>
         </li>
         <li>
         <input hidden type="text" value="150-200"/>
         <div className="information-special">
-        <p className="square-box">G</p><span>$150,000-$200,000</span>
+        <p className="square-box">G</p><p>$150,000-$200,000</p>
         </div>
         </li>
         <li>
         <input hidden type="text" value="200++"/>
         <div className="information-special">
-        <p className="square-box">H</p><span>More than $200,000</span>
+        <p className="square-box">H</p><p>More than $200,000</p>
         </div>
         </li>
         </ul>

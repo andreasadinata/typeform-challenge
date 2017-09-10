@@ -1,5 +1,4 @@
 .main-content {
-    height: 900px;
     width: 100%;
     padding-top: 100px;
     padding-left: 20%;
@@ -52,10 +51,17 @@
     border: 1px solid white;
     border-radius: 3px;
     width: 20%;
+    min-width: 100px;
     text-align: center;
 }
 
 .enter-button:hover{
     cursor: pointer;
     background-image: url(../images/transparent.jpg)
+}
+
+@media only screen and (max-width: 600px) {
+    .main-content{
+        padding-left: 10%;
+    }
 }

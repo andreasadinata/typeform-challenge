@@ -1,4 +1,5 @@
 import React from 'react';
+import './q12emailAddress.css'
 
 
 export default class Q12emailAddress extends React.Component{
@@ -11,7 +12,7 @@ export default class Q12emailAddress extends React.Component{
     }
 
     render(){return(
-        <ul>
+        <ul className="last-question">
         <li className="number inline">12 <i className="fa fa-arrow-right" aria-hidden="true"></i></li>
         <li className="form-submit inline">
         <div action="submit">

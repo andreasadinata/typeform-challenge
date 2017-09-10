@@ -78,6 +78,25 @@
     margin-top: 0px;
 }
 
-.information-special span {
+.information-special p {
     font-size: 0.8em;
+    display: inline-block;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .box-choices-one-line li{
+        width: 120%;
+    }
+    .information-special p {
+        font-size: 0.6em;
+        display: block;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .square-box{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }

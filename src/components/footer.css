@@ -1,0 +1,37 @@
+/*footer*/
+.footer-completed{
+    background-color: #4A4A4A;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:60px;
+    width:100%;
+}
+
+.percentage-completed{
+    position: absolute;
+    left: 30%;
+    padding-top: 10px;
+}
+.percentage-completed div{
+    font-size: 0.8em;
+}
+
+.bar-completed{
+    margin-top: 5px;
+    width: 200px;
+    height: 5px;
+    border: white 1px solid white;
+    border-radius: 10px;
+    background-color: gray;
+}
+
+.progress{
+    width: 10%;
+    height: 5px;
+    background-color: #FFFFFF;
+}
+
+
+
+
