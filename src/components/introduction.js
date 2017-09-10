@@ -1,13 +1,24 @@
 import React from 'react';
-import {connect} from 'react-redux';
+import './introduction.css';
 
-export function Introduction (props){
-    return(
+export default class Introduction extends React.Component{
+    onNextSection(event){
+        event.preventDefault();
+        if(this.props.onNextSection){
+            this.props.onNextSection();
+        }
+    }
+    render(){return(
         <section className="introduction">
-            <img src="../images/intro-image.png" alt="introduction-image">
+        <div className="table"><div className="aligning">
+        <img src={require('../images/intro-image.png')} alt="intro-image"/>
             <h1>Branding Questionnaire</h1>
             <p>Let us capture your vision and values so we can help you build a vibrant brand identity.</p>
-            <div className="start">Start</div>
+        <div className="start" onClick={e => this.onNextSection(e)}>Start</div>
+            </div>
+            </div>
         </section>
-    )
+
+    );
+    }
 }

@@ -1,0 +1,61 @@
+.main-content {
+    height: 900px;
+    width: 100%;
+    padding-top: 100px;
+    padding-left: 20%;
+}
+
+
+/*detail inline of each questions*/
+
+.questions {
+    margin-top: 100px;
+}
+
+.number {
+    width: 10%;
+    text-align: right;
+}
+
+.form-submit {
+    width: 60%;
+    padding-left: 30px;
+}
+
+.inline {
+    display: inline-block;
+    vertical-align: top;
+    font-family: cabin;
+    font-size: 22px;
+}
+
+.input-long-line {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    background: none;
+    border-bottom: 1px solid white;
+    width: 100%;
+    font-size: 1.5em;
+    outline: none;
+    padding-bottom: 5px;
+}
+
+.input-long-line:focus {
+    border: none;
+}
+
+.enter-button {
+    margin-top: 20px;
+    background: none;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid white;
+    border-radius: 3px;
+    width: 20%;
+    text-align: center;
+}
+
+.enter-button:hover{
+    cursor: pointer;
+    background-image: url(../images/transparent.jpg)
+}

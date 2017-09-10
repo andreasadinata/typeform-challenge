@@ -1,0 +1,83 @@
+/*Question 5 CSS*/
+
+.box-choices {
+    margin-top: 30px;
+}
+
+.box-choices li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px;
+    padding: 40px 20px 40px 20px;
+    border: 1px solid white;
+    border-radius: 3px;
+    height: 200px;
+    width: 200px;
+    vertical-align: top;
+    margin-bottom: 10px;
+    opacity: 0.7;
+}
+
+.box-choices li:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.img-wrapper {
+    height: 80px;
+}
+
+.information {
+    margin-top: 20px;
+}
+
+.information span {
+    font-size: 0.7em;
+}
+
+.square-box {
+    font-size: 0.6em;
+    border: 0.5px solid white;
+    border-radius: 3px;
+    margin-right: 10px;
+    width: 10%;
+    text-align: center;
+    display: inline-block;
+}
+
+.special img {
+    display: inline-block;
+}
+
+
+/*Question 7*/
+
+.box-choices-one-line {
+    margin-top: 30px;
+}
+
+.box-choices-one-line li {
+    display: inline-block;
+    text-align: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding: 10px 20px 10px 20px;
+    border: 1px solid white;
+    border-radius: 3px;
+    vertical-align: top;
+    width: 300px;
+    opacity: 0.7;
+}
+
+.box-choices-one-line li:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.information-special {
+    margin-top: 0px;
+}
+
+.information-special span {
+    font-size: 0.8em;
+}
