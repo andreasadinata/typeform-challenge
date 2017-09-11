@@ -18,7 +18,6 @@
     vertical-align: top;
     padding-left: 13%;
     padding-top: 20px;
-    width: 80%;
     display: inline-block;
     font-family: sans-serif;
 }
@@ -53,4 +52,14 @@
     background-color: white;
     color: #4A4A4A;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 676px) {
+    .footer-completed{
+        height: 150px;
+    }
+    .submit-everything{
+        float: none;
+        margin-left: 13%;
+    }
 }

@@ -69,8 +69,10 @@
 @media only screen and (max-width: 600px) {
     .main-content{
         padding-left: 10%;
+        width: 80%;
     }
 }
+
 /*animation*/
 .main-enter {
     opacity: 0.01;
