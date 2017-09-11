@@ -19,7 +19,7 @@ export default class Q3value extends React.Component{
         <form onSubmit={e=>this.onValue(e)} action="submit" id="description">
         <div>Can you tell me what is your vision or mission of your business?</div>
             <input type="text" className="input-long-line" id="value" required ref={input => this.input = input}/>
-        <submit className="enter-button">Enter</submit>
+        <button className="enter-button">Enter</button>
         </form>
         </li>
         </ul>

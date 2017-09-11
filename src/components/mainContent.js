@@ -1,4 +1,5 @@
 import React from 'react';
+import { CSSTransitionGroup } from 'react-transition-group';
 import Q1name from './q1name';
 import CollectionOfQuestions from './collectionOfQuestions'
 import Footer from './footer';
@@ -131,6 +132,7 @@ export default class MainContent extends React.Component{
     render(){
         let theRest;
         let open;
+        let firstQuestion;
         if(this.state.openTheRest){
             theRest = <CollectionOfQuestions name={this.state.name} onIndustry={(value)=>this.IndustryInputted(value)} onValue={(value)=>this.ValueInputted(value)}
             onAdvantage={(value)=>this.AdvantageInputted(value)} onFiveWords={(value)=>this.FiveWordsInputted(value)} onColorFont={(value)=>this.setState({colorFont: value})}
@@ -138,11 +140,12 @@ export default class MainContent extends React.Component{
         onBrandingType={(value)=>this.BrandingTypeInputted(value)} onGenderTarget={(value)=>this.GenderTargetInputted(value)}
         onAgeTarget={(value)=>this.AgeTargetInputted(value)} onIncomeTarget={(value)=>this.IncomeTargetInputted(value)}
         />
-        }
+        }else firstQuestion =<li className="questions" ><Q1name onName={(value)=>this.NameInputted(value)}/></li>
         if(!this.state.thankyou){
-            open = <ul><li className="questions" ><Q1name onName={(value)=>this.NameInputted(value)}/></li>
-                    <li className="questions" >{theRest}</li>
-                    <Footer percentage={this.state.percentage}/></ul>
+            open = <ul> {firstQuestion}
+                <li className="questions" ><CSSTransitionGroup  transitionName="main"
+                transitionEnterTimeout={500} transitionLeaveTimeout={500}>{theRest}</CSSTransitionGroup></li>
+                    <Footer percentage={this.state.percentage} onThankyou={(value)=>this.setState({thankyou:value})}/></ul>
         }else open = <Thankyou/>
         return(
         <section className="main-content">

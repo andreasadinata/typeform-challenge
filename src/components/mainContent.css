@@ -9,7 +9,7 @@
 /*detail inline of each questions*/
 
 .questions {
-    padding-top: 75px;
+    padding-top: 100px;
 }
 
 .number {
@@ -65,9 +65,27 @@
     background-color: #4A4A4A;
 
 }
-
+/*media*/
 @media only screen and (max-width: 600px) {
     .main-content{
         padding-left: 10%;
     }
+}
+/*animation*/
+.main-enter {
+    opacity: 0.01;
+}
+
+.main-enter.main-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+}
+
+.main-leave {
+    opacity: 1;
+}
+
+.main-leave.main-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
 }

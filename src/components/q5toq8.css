@@ -21,6 +21,7 @@
 .box-choices li:hover {
     opacity: 1;
     cursor: pointer;
+    background: linear-gradient( rgba(70, 70, 70, 0.8), rgba(70, 70, 70, 0.8));
 }
 
 .img-wrapper {
@@ -72,6 +73,7 @@
 .box-choices-one-line li:hover {
     opacity: 1;
     cursor: pointer;
+    background: linear-gradient( rgba(70, 70, 70, 0.8), rgba(70, 70, 70, 0.8));
 }
 
 .information-special {

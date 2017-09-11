@@ -1,0 +1,14 @@
+.thankyou-container{
+    padding-top: 50px;
+    text-align: center;
+}
+
+h1 {
+    letter-spacing: 1px;
+    font-size: 1.2em;
+    margin: 20px;
+}
+
+.thankyouimg{
+    height: 200px;
+}
