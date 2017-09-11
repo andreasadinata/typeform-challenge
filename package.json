@@ -1,20 +1,21 @@
 {
-    "name": "typeform-challenge",
-    "version": "0.1.0",
-    "private": true,
-    "dependencies": {
-        "react": "^15.4.2",
-        "react-dom": "^15.4.2",
-        "react-scripts": "^1.0.10"
-    },
-    "devDependencies": {
-
-        "webpack": "2.4.0"
-    },
-    "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test --env=jsdom",
-        "eject": "react-scripts eject"
-    }
+  "name": "typeform-challenge",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-scripts": "^1.0.10",
+    "react-scroll": "^1.5.4",
+    "react-visibility-sensor": "^3.10.1"
+  },
+  "devDependencies": {
+    "webpack": "2.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import './q1name.css';
 
+
 export default class Paragraph extends React.Component{
     onName(event){
         event.preventDefault();

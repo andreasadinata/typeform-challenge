@@ -1,14 +1,15 @@
 .main-content {
-    width: 100%;
+    width: 60%;
     padding-top: 100px;
-    padding-left: 20%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
 /*detail inline of each questions*/
 
 .questions {
-    margin-top: 100px;
+    padding-top: 75px;
 }
 
 .number {
@@ -17,7 +18,7 @@
 }
 
 .form-submit {
-    width: 60%;
+    width: 80%;
     padding-left: 30px;
 }
 
@@ -53,11 +54,16 @@
     width: 20%;
     min-width: 100px;
     text-align: center;
+    -webkit-transition: background-color 0.5s ease-out;
+    -moz-transition: background-color 0.5s ease-out;
+    -o-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out
 }
 
 .enter-button:hover{
     cursor: pointer;
-    background-image: url(../images/transparent.jpg)
+    background-color: #4A4A4A;
+
 }
 
 @media only screen and (max-width: 600px) {

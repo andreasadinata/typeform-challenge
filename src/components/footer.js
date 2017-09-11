@@ -1,14 +1,23 @@
 import React from 'react';
 import './footer.css';
 
-export default function Footer(props){
-    return(
+export default class Footer extends React.Component{
+    render(){
+        let submitButton;
+        if(this.props.percentage===100){
+            submitButton = <div className="submit-everything">SUBMIT</div>
+        }
+
+        return(
         <div className="footer-completed">
-        <div className="percentage-completed">
-        <div>10% completed</div>
-        <div className="bar-completed"><div className="progress"></div></div>
+        <div className="sixty-percent">
+            <div className="percentage-completed">
+            <div>{this.props.percentage}% completed</div>
+            <div className="bar-completed"><div className="progress" style={{width: this.props.percentage +"%"}}></div></div>
+            </div>
+            {submitButton}
         </div>
         </div>
         );
 }
-
+}

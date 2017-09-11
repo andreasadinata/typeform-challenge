@@ -15,14 +15,13 @@ export default class Q12emailAddress extends React.Component{
         <ul className="last-question">
         <li className="number inline">12 <i className="fa fa-arrow-right" aria-hidden="true"></i></li>
         <li className="form-submit inline">
-        <div action="submit">
+        <form onSubmit={e=>this.onEmailAddress(e)} action="submit">
         <div>Hey {this.props.name}, can we get your email Address?</div>
         <input type="text" id="extra-information" className="input-long-line" required ref={input => this.input = input}/>
-        <div className="enter-button" onClick={e=>this.onEmailAddress(e)}>Enter</div>
-        </div>
+        <button className="enter-button" >Enter</button>
+        </form>
         </li>
         </ul>
-
     );
 }
 }
